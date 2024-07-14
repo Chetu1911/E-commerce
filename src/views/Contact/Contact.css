@@ -1,0 +1,32 @@
+
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -2px;
+    padding-top: 28px;
+
+}
+
+.title-text {
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.heading {
+    font-size: 35px;
+    margin-bottom: 2px;
+    text-align: start;
+}
+
+.description {
+    font-size: 20px;
+
+
+}
+.form{
+
+    align-items: center;
+}

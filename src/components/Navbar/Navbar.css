@@ -1,0 +1,96 @@
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #45259a;
+    
+   
+  }
+  .second-nav{
+ 
+  display:flex;
+  
+  background-color: #38198f;
+  color: white;
+
+ }
+
+  
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 50px;
+    color: white;
+  }
+  
+  .navbar-search input {
+    padding: 5px;
+    font-size: 1rem;
+    width: 500px;
+  }
+  
+  .navbar-icons {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+  }
+  
+  .navbar-icons .icon-heart,
+  .navbar-icons .icon-cart {
+    font-size:40px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .icon-heart{
+    color: white;
+    padding-right: 20px;
+    
+  }
+  .icon-heart:hover{
+    color: red;
+  }
+  .navbar-links {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+   
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  .navbar-links a:hover{
+
+  border: 2px 2px white;
+  color: black;
+  background-color: white;
+  transition: 0.5s;
+  border-radius: 10px;
+  }
+  
+
+
+  @media (max-width: 768px) {
+    .navbar-links {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar-links a {
+      padding: 5px;
+    }
+  
+    .navbar-search,
+    .navbar-icons {
+      margin-top: 10px;
+    }
+  }
+  

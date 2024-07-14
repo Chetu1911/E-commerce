@@ -1,0 +1,104 @@
+.image{
+    height: -300px;
+    width: auto;
+}
+
+
+.imageslideshow{
+
+    padding: 20px;
+    
+}
+.poster-section{
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.237)), url('./Blogposter2.png'); 
+  height: 400px;
+  color: white;
+  text-align: center;
+}
+.poster-section h2{
+  padding-top: 60px;
+  font-size: 50px;
+}
+.poster-section button{
+  margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #b90c0c;
+    color: white;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .poster-section button:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 22px;
+    transition: 0.5s;
+  }
+
+.Categories{
+    background-color: #e4dafd;
+    text-align: center;
+    height: 700px;
+}
+.Categories h2{
+  padding: 10px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  .C1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.237)), url('./Card1.png');
+    margin-left: 50px;
+  }
+  .C2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.237)), url('./Card2.png');
+    margin-right: 50px;
+   
+  }
+  .card {
+
+    width: 700px;
+    height: 400px;
+   color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 5px;
+   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card p {
+    margin-left: 0px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace
+  }
+  
+  .card button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #b90c0c;
+    color: white;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .card button:hover {
+    background-color: #000000;
+    color: white;
+    font-size: 22px;
+    transition: 0.5s;
+  }
+  
